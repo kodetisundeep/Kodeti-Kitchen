@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>reviews</title>
+</head>
+<body>
+  <style>
+    .review-block{
+      background-color: rgb(242, 210, 106);
+      height: 600px;
+    }
+    .review-header{
+      font-family: sans-serif;
+      font-size: 50px;
+      font-weight: 500;
+      
+    }
+    .review-desc{
+      font-family: sans-serif;
+      font-style: normal;
+      text-align:justify;
+      font-weight: 520;
+    }
+    .review-desc2{
+      font-family: sans-serif;
+      font-style: normal;
+      text-align:justify;
+      font-weight: 520;
+    }
+    .review-form{
+      font-family: sans-serif;
+      font-size: 30px;
+      font-weight: 500;
+      margin-left: 5%;
+    }
+    .label{
+      font-family: sans-serif;
+      font-style: normal;
+      text-align:justify;
+      font-weight: 520;
+    }
+    .submit-button{
+      background-color: rgb(40,48,61);
+      border-bottom-color: rgb(255,255,255);
+      color: rgb(255,255,255);
+      border-radius: 5px;
+      font-size: 14px;
+      width: 80px;
+      height: 40px;
+      border: none;
+      margin-left: 5%;
+    }
+    .footer-content{
+      background-image: url('kitchenimgs/Kodeti\ Kitchen\ img.jpg');
+      background-size: 78%;
+      inline-size: 100%;
+      align-self: auto;
+      box-sizing: border-box;
+      color: rgb(242, 210, 106);
+      display: block;
+      font-family: Manrope, sans-serif;
+      font-size: 15px;
+      font-weight: 400;
+      height: auto;
+      line-height: 24px;
+      word-spacing: 5px;
+      padding-bottom: 20px;
+      cursor: pointer;
+    }
+    .logo-2{
+      width:150%;
+      height:100%;
+      max-width:250px;
+      object-fit: contain;
+      object-position: left;
+      padding: 5px;
+      cursor: pointer;
+    }
+  </style>
+  <div class="review-block">
+    <div>
+      <h class="review-header">We care about your Reviews</h>
+      <p class="review-desc">In our review section, our customers can't stop raving about<br>
+         our catering services. They loved the delectable menu, the attention to detail,<br>
+         and the exceptional service. From weddings to corporate events, our clients<br>
+         have been blown away by the flavours and presentation of our dishes.<br></p>
+         
+         <p class="review-desc2">Don't just take our word for it, check out the reviews and see why our<br>
+         catering service is a crowd favourite. Join the satisfied customers and <br>
+         let us make your event a culinary sensation!</p>
+    </div>
+  
+    <div>
+      <h class="review-form"> Reviews</h> 
+      <form action="/action.js" method="post">
+  
+        <label class="label" >Full Name - </label>
+        <input type="text" name="Full Name" value="" placeholder="Full Name" required><br></br>
+  
+        <label class="label">Telephone - </label>
+        <input type="number" name="Telephone" value="" placeholder="Telephone" required><br></br>
+        
+        <label class="label">Email - </label>
+        <input type="text" name="Email" value="" placeholder="Email" required><br></br>
+  
+        <label class="label">Comment - </label>
+        <input style="height: 100px; width: 150px;" type="text." name="comment" value="" placeholder="comment" required><br></br>
+  
+        <button class="submit-button">SUBMIT</button>
+      </form>
+    </div>
+  </div>
+
+  <div class="footer-content">
+    <img href="#" src="kitchenimgs/Kodeti Kitchen img.jpg" class="logo-2" alt="" decoding="async" >
+      <p style="padding-left: 10px;">&copy;2024 Kodeti's Kitchen Pvt.Ltd | All rights reserved.</p>
+      <ul>
+          <li><a href="#" style="color:rgb(242, 210, 106) ;">Terms of Service</a></li>
+          <li><a href="#"style="color:rgb(242, 210, 106) ;">Privacy Policy</a></li>
+          <li><a href="http://127.0.0.1:5500/contactus.html" style="color:rgb(242, 210, 106) ;">Contact Us</a></li>
+      </ul>
+  </div>
+</body>
+</html>
